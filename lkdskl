@@ -1,0 +1,23 @@
+[0;1;32m●[0m mariadb.service - MariaDB 10.2.26 database server
+   Loaded: loaded (/lib/systemd/system/mariadb.service; enabled; vendor preset: enabled)
+  Drop-In: /etc/systemd/system/mariadb.service.d
+           └─migrated-from-my.cnf-settings.conf
+   Active: [0;1;32mactive (running)[0m since Mon 2019-09-16 18:03:29 +03; 19h ago
+     Docs: man:mysqld(8)
+           https://mariadb.com/kb/en/library/systemd/
+ Main PID: 2338 (mysqld)
+   Status: "Taking your SQL requests now..."
+    Tasks: 39 (limit: 4271)
+   Memory: 301.4M
+   CGroup: /system.slice/mariadb.service
+           └─2338 /usr/sbin/mysqld
+
+Sep 16 18:03:07 ubuntu_svr systemd[1]: Starting MariaDB 10.2.26 database server...
+Sep 16 18:03:17 ubuntu_svr mysqld[2338]: [0;1;31m[0;1;39m[0;1;31m2019-09-16 18:03:15 140231325960128 [Note] /usr/sbin/mysqld (mysqld 10.2.26-MariaDB-1:10.2.26+maria~cosmic-log) starting as process 2338 ...[0m
+Sep 16 18:03:17 ubuntu_svr mysqld[2338]: [0;1;31m[0;1;39m[0;1;31m2019-09-16 18:03:15 140231325960128 [Warning] Could not increase number of max_open_files to more than 16364 (request: 21013)[0m
+Sep 16 18:03:17 ubuntu_svr mysqld[2338]: [0;1;31m[0;1;39m[0;1;31m2019-09-16 18:03:15 140231325960128 [Warning] Changed limits: max_open_files: 16364  max_connections: 500 (was 500)  table_cache: 7917 (was 10240)[0m
+Sep 16 18:03:29 ubuntu_svr systemd[1]: Started MariaDB 10.2.26 database server.
+Sep 16 18:03:30 ubuntu_svr /etc/mysql/debian-start[3657]: [0;1;39m[0;1;31m[0;1;39m/usr/bin/mysql_upgrade: the '--basedir' option is always ignored[0m
+Sep 16 18:03:30 ubuntu_svr /etc/mysql/debian-start[3657]: [0;1;39m[0;1;31m[0;1;39mLooking for 'mysql' as: /usr/bin/mysql[0m
+Sep 16 18:03:30 ubuntu_svr /etc/mysql/debian-start[3657]: [0;1;39m[0;1;31m[0;1;39mLooking for 'mysqlcheck' as: /usr/bin/mysqlcheck[0m
+Sep 16 18:03:30 ubuntu_svr /etc/mysql/debian-start[3657]: [0;1;39m[0;1;31m[0;1;39mThis installation of MySQL is already upgraded to 10.2.26-MariaDB, use --force if you still need to run mysql_upgrade[0m

@@ -1,0 +1,128 @@
+2019-08-28 08:17:11,167 INFO getting app erpnext
+2019-08-28 08:17:11,273 INFO git clone https://github.com/frappe/erpnext --branch version-12 --depth 1 --origin upstream
+2019-08-28 08:17:22,816 INFO installing erpnext
+2019-08-28 08:17:22,817 INFO ./env/bin/pip install -q  -e ./apps/erpnext 
+2019-08-28 08:18:35,853 INFO bench build --app erpnext
+2019-08-28 16:09:01,273 INFO bench new-site --force bench-manager.local
+2019-08-28 16:11:17,530 INFO bench get-app bench_manager
+2019-08-28 16:11:23,258 INFO getting app bench_manager
+2019-08-28 16:11:23,289 INFO git clone https://github.com/frappe/bench_manager  --depth 1 --origin upstream
+2019-08-28 16:11:26,462 INFO installing bench_manager
+2019-08-28 16:11:26,465 INFO ./env/bin/pip install -q  -e ./apps/bench_manager 
+2019-08-28 16:11:34,246 INFO bench build --app bench_manager
+2019-08-28 16:11:52,064 INFO bench --site bench-manager.local install-app bench_manager
+2019-09-12 15:20:07,824 INFO updating bench
+2019-09-12 15:20:07,824 INFO git pull
+2019-09-12 15:20:21,800 INFO updating bench
+2019-09-12 15:20:21,801 INFO git pull
+2019-09-12 18:04:36,843 INFO updating bench
+2019-09-12 18:04:36,887 INFO git pull
+2019-09-12 18:06:32,366 INFO ./env/bin/pip install --upgrade pip
+2019-09-12 18:06:36,092 INFO ./env/bin/pip install -q -r /home/[frappe]/.bench/requirements.txt
+2019-09-12 18:06:39,995 INFO installing frappe
+2019-09-12 18:06:39,995 INFO ./env/bin/pip install -q  -e ./apps/frappe 
+2019-09-12 18:06:48,986 INFO installing erpnext
+2019-09-12 18:06:48,986 INFO ./env/bin/pip install -q  -e ./apps/erpnext 
+2019-09-12 18:06:53,781 INFO installing bench_manager
+2019-09-12 18:06:53,781 INFO ./env/bin/pip install -q  -e ./apps/bench_manager 
+2019-09-12 18:06:56,504 INFO yarn install
+2019-09-12 18:08:22,584 INFO yarn install
+2019-09-12 21:36:11,883 INFO updating bench
+2019-09-12 21:36:11,884 INFO git pull
+2019-09-12 21:43:06,553 INFO updating bench
+2019-09-12 21:43:06,553 INFO git pull
+2019-09-12 21:43:47,063 INFO updating bench
+2019-09-12 21:43:47,064 INFO git pull
+2019-09-13 22:38:18,426 INFO updating bench
+2019-09-13 22:38:18,439 INFO git pull
+2019-09-13 22:38:59,077 INFO updating bench
+2019-09-13 22:38:59,078 INFO git pull
+2019-09-13 22:50:06,674 INFO updating bench
+2019-09-13 22:50:06,677 INFO git pull
+2019-09-14 00:30:00,863 INFO updating bench
+2019-09-14 00:30:00,864 INFO git pull
+2019-09-14 13:58:48,322 INFO updating bench
+2019-09-14 13:58:48,332 INFO git pull
+2019-09-14 13:59:18,004 INFO updating bench
+2019-09-14 13:59:18,006 INFO git pull
+2019-09-14 13:59:23,134 INFO updating bench
+2019-09-14 13:59:23,137 INFO git pull
+2019-09-14 13:59:29,452 INFO updating bench
+2019-09-14 13:59:29,454 INFO git pull
+2019-09-14 14:00:15,031 INFO updating bench
+2019-09-14 14:00:15,033 INFO git pull
+2019-09-14 14:02:59,849 INFO updating bench
+2019-09-14 14:02:59,851 INFO git pull
+2019-09-14 14:03:29,806 INFO updating bench
+2019-09-14 14:03:29,808 INFO git pull
+2019-09-14 14:05:18,169 INFO updating bench
+2019-09-14 14:05:18,171 INFO git pull
+2019-09-14 17:21:24,869 INFO updating bench
+2019-09-14 17:21:24,878 INFO git pull
+2019-09-14 18:51:38,978 INFO updating bench
+2019-09-14 18:51:38,979 INFO git pull
+2019-09-14 19:01:41,262 INFO updating bench
+2019-09-14 19:01:41,264 INFO git pull
+2019-09-14 19:39:41,628 INFO updating bench
+2019-09-14 19:39:41,630 INFO git pull
+2019-09-14 19:40:03,195 INFO updating bench
+2019-09-14 19:40:03,197 INFO git pull
+2019-09-14 19:55:27,277 INFO updating bench
+2019-09-14 19:55:27,277 INFO git pull
+2019-09-17 12:49:53,727 INFO updating bench
+2019-09-17 12:49:53,727 INFO git pull
+2019-09-17 12:54:01,397 INFO updating bench
+2019-09-17 12:54:01,397 INFO git pull
+2019-09-17 12:54:33,382 INFO updating bench
+2019-09-17 12:54:33,383 INFO git pull
+2019-09-17 12:55:45,658 INFO updating bench
+2019-09-17 12:55:45,659 INFO git pull
+2019-09-17 12:58:15,283 INFO updating bench
+2019-09-17 12:58:15,284 INFO git pull
+2019-09-17 13:27:04,927 INFO updating bench
+2019-09-17 13:27:04,929 INFO git pull
+2019-09-17 13:27:13,424 INFO updating bench
+2019-09-17 13:27:13,425 INFO git pull
+2019-09-17 14:15:40,538 INFO updating bench
+2019-09-17 14:15:40,539 INFO git pull
+2019-09-17 14:27:26,123 INFO updating bench
+2019-09-17 14:27:26,123 INFO git pull
+2019-09-17 14:27:33,983 INFO updating bench
+2019-09-17 14:27:33,983 INFO git pull
+2019-09-17 14:35:20,289 INFO updating bench
+2019-09-17 14:35:20,291 INFO git pull
+2019-09-17 14:41:06,472 INFO updating bench
+2019-09-17 14:41:06,473 INFO git pull
+2019-09-17 14:54:40,981 INFO virtualenv -q env -p /usr/bin/python3
+2019-09-17 14:54:48,841 INFO env/bin/pip -q install --upgrade pip
+2019-09-17 14:54:50,396 INFO env/bin/pip -q install wheel
+2019-09-17 14:54:51,614 INFO env/bin/pip -q install six
+2019-09-17 14:54:52,830 INFO env/bin/pip -q install -e git+https://github.com/frappe/python-pdfkit.git#egg=pdfkit
+2019-09-17 15:10:14,638 INFO updating bench
+2019-09-17 15:10:14,646 INFO git pull
+2019-09-22 12:44:35,312 INFO updating bench
+2019-09-22 12:44:35,339 INFO git pull
+2019-09-23 17:26:04,524 INFO ./env/bin/pip install --upgrade pip
+2019-09-23 17:26:16,207 INFO ./env/bin/pip install -q -r /home/[frappe]/.bench/requirements.txt
+2019-09-23 17:26:18,224 INFO installing frappe
+2019-09-23 17:26:18,242 INFO ./env/bin/pip install -q  -e ./apps/frappe 
+2019-09-30 14:22:09,053 INFO updating bench
+2019-09-30 14:22:09,077 INFO git pull
+2019-10-11 19:47:51,840 INFO updating bench
+2019-10-11 19:47:51,864 INFO git pull
+2019-10-11 19:48:34,465 INFO updating bench
+2019-10-11 19:48:34,465 INFO git pull
+2019-10-11 19:49:11,348 INFO updating bench
+2019-10-11 19:49:11,349 INFO git pull
+2019-10-11 20:39:19,020 INFO ./env/bin/pip install --upgrade pip
+2019-10-11 20:39:23,635 INFO ./env/bin/pip install -q -r /home/[frappe]/.bench/requirements.txt
+2019-10-11 20:39:25,560 INFO installing frappe
+2019-10-11 20:39:25,561 INFO ./env/bin/pip install -q  -e ./apps/frappe 
+2019-10-11 20:39:32,852 INFO installing erpnext
+2019-10-11 20:39:32,852 INFO ./env/bin/pip install -q  -e ./apps/erpnext 
+2019-10-11 20:39:38,678 INFO installing bench_manager
+2019-10-11 20:39:38,679 INFO ./env/bin/pip install -q  -e ./apps/bench_manager 
+2019-10-11 20:39:42,877 INFO yarn install
+2019-10-11 20:39:44,810 INFO yarn install
+2019-10-11 20:40:38,446 INFO updating bench
+2019-10-11 20:40:38,446 INFO git pull

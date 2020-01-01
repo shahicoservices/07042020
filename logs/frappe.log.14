@@ -1,0 +1,987 @@
+[ERROR] 2019-12-28 16:05:07,098 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 84, in runserverobj
+    frappe.desk.form.run_method.runserverobj(method, docs=docs, dt=dt, dn=dn, arg=arg, args=args)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/desk/form/run_method.py", line 36, in runserverobj
+    r = doc.run_method(method)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/custom/doctype/customize_form/customize_form.py", line 172, in save_customization
+    frappe.db.updatedb(self.doc_type)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 291, in updatedb
+    db_table.sync()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/schema.py", line 36, in sync
+    self.alter()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py", line 86, in alter
+    raise e
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py", line 75, in alter
+    frappe.db.sql(query)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 171, in sql
+    self._cursor.execute(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1265, "Data truncated for column 'total_orders_delivered' at row 1")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-28 16:05:56,662 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 22, in savedocs
+    doc.save()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
+    return self._save(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 324, in _save
+    self.run_post_save_methods()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 917, in run_post_save_methods
+    self.run_method("on_update")
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py", line 281, in on_update
+    raise e
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py", line 278, in on_update
+    frappe.db.updatedb(self.name, self)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 291, in updatedb
+    db_table.sync()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/schema.py", line 36, in sync
+    self.alter()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py", line 86, in alter
+    raise e
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py", line 75, in alter
+    frappe.db.sql(query)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 171, in sql
+    self._cursor.execute(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.DataError: (1265, "Data truncated for column 'total_orders_delivered' at row 1")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-28 16:47:07,894 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 193, in upload_file
+    ret.save(ignore_permissions=ignore_permissions)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
+    return self._save(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
+    self.insert()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 252, in insert
+    self.run_method("after_insert")
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 75, in after_insert
+    self.update_parent_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 162, in update_parent_folder_size
+    frappe.get_doc("File", self.folder).set_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 144, in set_folder_size
+    self.db_set('file_size', self.file_size)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 992, in db_set
+    self.modified, self.modified_by, update_modified=update_modified)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 652, in set_value
+    values, debug=debug)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 156, in sql
+    self._cursor.execute(query, values)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-28 17:01:00,924 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 193, in upload_file
+    ret.save(ignore_permissions=ignore_permissions)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
+    return self._save(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
+    self.insert()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 252, in insert
+    self.run_method("after_insert")
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 75, in after_insert
+    self.update_parent_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 162, in update_parent_folder_size
+    frappe.get_doc("File", self.folder).set_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 144, in set_folder_size
+    self.db_set('file_size', self.file_size)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 992, in db_set
+    self.modified, self.modified_by, update_modified=update_modified)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 652, in set_value
+    values, debug=debug)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 156, in sql
+    self._cursor.execute(query, values)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-28 17:01:00,926 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 193, in upload_file
+    ret.save(ignore_permissions=ignore_permissions)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
+    return self._save(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
+    self.insert()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 252, in insert
+    self.run_method("after_insert")
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 75, in after_insert
+    self.update_parent_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 162, in update_parent_folder_size
+    frappe.get_doc("File", self.folder).set_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 144, in set_folder_size
+    self.db_set('file_size', self.file_size)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 992, in db_set
+    self.modified, self.modified_by, update_modified=update_modified)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 652, in set_value
+    values, debug=debug)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 156, in sql
+    self._cursor.execute(query, values)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-28 18:45:01,106 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 19, in savedocs
+    doc.submit()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 857, in submit
+    self._submit()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 846, in _submit
+    self.save()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
+    return self._save(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
+    self.insert()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 258, in insert
+    self.run_post_save_methods()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 920, in run_post_save_methods
+    self.run_method("on_submit")
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/erpnext/erpnext/hr/doctype/payroll_entry/payroll_entry.py", line 25, in on_submit
+    self.create_salary_slips()
+  File "/home/mandy/frappe-bench/apps/erpnext/erpnext/hr/doctype/payroll_entry/payroll_entry.py", line 114, in create_salary_slips
+    emp_list = [d.employee for d in self.get_emp_list()]
+TypeError: 'NoneType' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-29 10:42:54,454 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 53, in send_sms
+    receiver_list = validate_receiver_nos(receiver_list)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 23, in validate_receiver_nos
+    d = d.replace(x, '')
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-29 10:43:46,402 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 53, in send_sms
+    receiver_list = validate_receiver_nos(receiver_list)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 23, in validate_receiver_nos
+    d = d.replace(x, '')
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-29 13:14:23,910 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 53, in send_sms
+    receiver_list = validate_receiver_nos(receiver_list)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 23, in validate_receiver_nos
+    d = d.replace(x, '')
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-29 13:26:33,679 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 193, in upload_file
+    ret.save(ignore_permissions=ignore_permissions)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
+    return self._save(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
+    self.insert()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 252, in insert
+    self.run_method("after_insert")
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 75, in after_insert
+    self.update_parent_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 162, in update_parent_folder_size
+    frappe.get_doc("File", self.folder).set_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 144, in set_folder_size
+    self.db_set('file_size', self.file_size)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 992, in db_set
+    self.modified, self.modified_by, update_modified=update_modified)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 652, in set_value
+    values, debug=debug)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 156, in sql
+    self._cursor.execute(query, values)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-29 13:26:33,786 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 193, in upload_file
+    ret.save(ignore_permissions=ignore_permissions)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
+    return self._save(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
+    self.insert()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 252, in insert
+    self.run_method("after_insert")
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 75, in after_insert
+    self.update_parent_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 162, in update_parent_folder_size
+    frappe.get_doc("File", self.folder).set_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 144, in set_folder_size
+    self.db_set('file_size', self.file_size)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 992, in db_set
+    self.modified, self.modified_by, update_modified=update_modified)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 652, in set_value
+    values, debug=debug)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 156, in sql
+    self._cursor.execute(query, values)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-29 13:26:33,883 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 193, in upload_file
+    ret.save(ignore_permissions=ignore_permissions)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
+    return self._save(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
+    self.insert()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 252, in insert
+    self.run_method("after_insert")
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 75, in after_insert
+    self.update_parent_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 162, in update_parent_folder_size
+    frappe.get_doc("File", self.folder).set_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 144, in set_folder_size
+    self.db_set('file_size', self.file_size)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 992, in db_set
+    self.modified, self.modified_by, update_modified=update_modified)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 652, in set_value
+    values, debug=debug)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 156, in sql
+    self._cursor.execute(query, values)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-29 13:40:07,714 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/desk/form/utils.py", line 34, in validate_link
+    valid_value = frappe.db.get_all(options, filters=dict(name=value), as_list=1, limit=1)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 527, in get_all
+    return frappe.get_all(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1293, in get_all
+    return get_list(doctype, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1266, in get_list
+    return frappe.model.db_query.DatabaseQuery(doctype).execute(None, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/db_query.py", line 95, in execute
+    result = self.build_and_run()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/db_query.py", line 109, in build_and_run
+    args = self.prepare_args()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/db_query.py", line 135, in prepare_args
+    self.set_optional_columns()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/db_query.py", line 293, in set_optional_columns
+    columns = frappe.db.get_table_columns(self.doctype)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 854, in get_table_columns
+    raise self.TableMissingError
+pymysql.err.ProgrammingError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-29 14:13:27,221 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 193, in upload_file
+    ret.save(ignore_permissions=ignore_permissions)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
+    return self._save(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
+    self.insert()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 252, in insert
+    self.run_method("after_insert")
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 75, in after_insert
+    self.update_parent_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 162, in update_parent_folder_size
+    frappe.get_doc("File", self.folder).set_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 144, in set_folder_size
+    self.db_set('file_size', self.file_size)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 992, in db_set
+    self.modified, self.modified_by, update_modified=update_modified)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 652, in set_value
+    values, debug=debug)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 156, in sql
+    self._cursor.execute(query, values)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-30 15:51:30,826 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 53, in send_sms
+    receiver_list = validate_receiver_nos(receiver_list)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 23, in validate_receiver_nos
+    d = d.replace(x, '')
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-30 15:53:11,819 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 53, in send_sms
+    receiver_list = validate_receiver_nos(receiver_list)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 23, in validate_receiver_nos
+    d = d.replace(x, '')
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-31 11:54:12,519 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 193, in upload_file
+    ret.save(ignore_permissions=ignore_permissions)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
+    return self._save(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
+    self.insert()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 252, in insert
+    self.run_method("after_insert")
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 75, in after_insert
+    self.update_parent_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 162, in update_parent_folder_size
+    frappe.get_doc("File", self.folder).set_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 144, in set_folder_size
+    self.db_set('file_size', self.file_size)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 992, in db_set
+    self.modified, self.modified_by, update_modified=update_modified)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 652, in set_value
+    values, debug=debug)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 156, in sql
+    self._cursor.execute(query, values)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-31 11:54:24,554 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 193, in upload_file
+    ret.save(ignore_permissions=ignore_permissions)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
+    return self._save(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
+    self.insert()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 252, in insert
+    self.run_method("after_insert")
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
+    return composed(self, method, *args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
+    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 75, in after_insert
+    self.update_parent_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 162, in update_parent_folder_size
+    frappe.get_doc("File", self.folder).set_folder_size()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 144, in set_folder_size
+    self.db_set('file_size', self.file_size)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 992, in db_set
+    self.modified, self.modified_by, update_modified=update_modified)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 652, in set_value
+    values, debug=debug)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 156, in sql
+    self._cursor.execute(query, values)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[ERROR] 2019-12-31 14:06:44,156 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 53, in send_sms
+    receiver_list = validate_receiver_nos(receiver_list)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 23, in validate_receiver_nos
+    d = d.replace(x, '')
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
