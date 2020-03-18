@@ -1,7 +1,9 @@
 {
  "db_name": "_1bd3e0294da19198",
  "db_password": "root123",
+ "dropbox_access_key":"jnf07836k8hsbxk",
+ "dropbox_secret_key":"ck0u5j9cuzrljhc",
  "db_type": "mariadb",
- "developer_mode": 1,
+ "developer_mode": 0,
  "encryption_key": "rHC8HL8L5GLrLozAAiLY8yg1rgRYWzj0jlAm-ycVtLY="
 }

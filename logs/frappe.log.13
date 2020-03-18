@@ -1,264 +1,1986 @@
-[ERROR] 2019-12-28 16:05:56,634 | /home/mandy/frappe-bench/apps/frappe/frappe/app.py:
+[DEBUG] 2020-03-14 01:27:22,199 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
-Form Dict: {
- "action": "Save",
- "cmd": "frappe.desk.form.save.savedocs",
- "doc": "{\"name\":\"Salary Slip\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-10-21 19:56:43.198672\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"idx\":9,\"issingle\":0,\"istable\":0,\"editable_grid\":0,\"track_changes\":0,\"module\":\"HR\",\"title_field\":\"employee_name\",\"timeline_field\":\"employee\",\"sort_field\":\"modified\",\"sort_order\":\"DESC\",\"read_only\":0,\"in_create\":0,\"allow_copy\":0,\"allow_rename\":0,\"allow_import\":1,\"hide_toolbar\":0,\"track_seen\":0,\"max_attachments\":0,\"document_type\":\"Setup\",\"icon\":\"fa fa-file-text\",\"engine\":\"InnoDB\",\"default_print_format\":\"\",\"is_submittable\":1,\"show_name_in_global_search\":1,\"custom\":0,\"beta\":0,\"has_web_view\":0,\"allow_guest_to_view\":0,\"track_views\":0,\"quick_entry\":0,\"allow_auto_repeat\":0,\"allow_events_in_timeline\":0,\"show_preview_popup\":0,\"is_tree\":0,\"doctype\":\"DocType\",\"fields\":[{\"name\":\"de825ab149\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":1,\"fieldname\":\"posting_date\",\"label\":\"Posting Date\",\"fieldtype\":\"Date\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":1,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"default\":\"Today\",\"in_list_view\":1,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"778a735ec4\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":2,\"fieldname\":\"employee\",\"label\":\"Employee\",\"oldfieldname\":\"employee\",\"fieldtype\":\"Link\",\"oldfieldtype\":\"Link\",\"options\":\"Employee\",\"search_index\":1,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":1,\"bold\":0,\"in_global_search\":1,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":1,\"in_standard_filter\":1,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"ebdef5cf2f\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":3,\"fieldname\":\"employee_name\",\"label\":\"Employee Name\",\"oldfieldname\":\"employee_name\",\"fieldtype\":\"Read Only\",\"oldfieldtype\":\"Data\",\"options\":\"\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":1,\"bold\":0,\"in_global_search\":1,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":1,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"fetch_from\":\"employee.employee_name\",\"doctype\":\"DocField\"},{\"name\":\"af39a96829\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":4,\"fieldname\":\"department\",\"label\":\"Department\",\"oldfieldname\":\"department\",\"fieldtype\":\"Link\",\"oldfieldtype\":\"Link\",\"options\":\"Department\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":1,\"in_preview\":0,\"read_only\":1,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"fetch_from\":\"employee.department\",\"doctype\":\"DocField\"},{\"name\":\"015c61db9d\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":5,\"fieldname\":\"designation\",\"label\":\"Designation\",\"oldfieldname\":\"designation\",\"fieldtype\":\"Read Only\",\"oldfieldtype\":\"Link\",\"options\":\"\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"eval:doc.designation\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"fetch_from\":\"employee.designation\",\"doctype\":\"DocField\"},{\"name\":\"db1d986ec1\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":6,\"fieldname\":\"branch\",\"label\":\"Branch\",\"oldfieldname\":\"branch\",\"fieldtype\":\"Link\",\"oldfieldtype\":\"Link\",\"options\":\"Branch\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":1,\"in_preview\":0,\"read_only\":1,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"fetch_from\":\"employee.branch\",\"doctype\":\"DocField\"},{\"name\":\"e8ec56ed5f\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":7,\"fieldname\":\"column_break1\",\"fieldtype\":\"Column Break\",\"oldfieldtype\":\"Column Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"width\":\"50%\",\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"5d2291a25d\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":8,\"fieldname\":\"status\",\"label\":\"Status\",\"fieldtype\":\"Select\",\"options\":\"Draft\\nSubmitted\\nCancelled\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"6d7d35f112\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":9,\"fieldname\":\"journal_entry\",\"label\":\"Journal Entry\",\"fieldtype\":\"Link\",\"options\":\"Journal Entry\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"4c65849bdb\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":10,\"fieldname\":\"payroll_entry\",\"label\":\"Payroll Entry\",\"fieldtype\":\"Link\",\"options\":\"Payroll Entry\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"bea6bd95d8\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":11,\"fieldname\":\"company\",\"label\":\"Company\",\"fieldtype\":\"Link\",\"options\":\"Company\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":1,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":1,\"in_standard_filter\":1,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":1,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"2db94e3b3b\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":12,\"fieldname\":\"letter_head\",\"label\":\"Letter Head\",\"fieldtype\":\"Link\",\"options\":\"Letter Head\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":1,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":1,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":1,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"f1d0734f20\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":13,\"fieldname\":\"section_break_10\",\"fieldtype\":\"Section Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"4eface1608\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":14,\"fieldname\":\"salary_slip_based_on_timesheet\",\"label\":\"Salary Slip Based on Timesheet\",\"fieldtype\":\"Check\",\"options\":\"\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"93fcc9f793\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":15,\"fieldname\":\"start_date\",\"label\":\"Start Date\",\"fieldtype\":\"Date\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"default\":\"\",\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"45c9d5c8b3\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":16,\"fieldname\":\"end_date\",\"label\":\"End Date\",\"fieldtype\":\"Date\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"default\":\"\",\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"c355277a0e\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":17,\"fieldname\":\"column_break_15\",\"fieldtype\":\"Column Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"86617c5dbe\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":18,\"fieldname\":\"salary_structure\",\"label\":\"Salary Structure\",\"fieldtype\":\"Link\",\"options\":\"Salary Structure\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"44e4625836\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":19,\"fieldname\":\"payroll_frequency\",\"label\":\"Payroll Frequency\",\"fieldtype\":\"Select\",\"options\":\"\\nMonthly\\nFortnightly\\nBimonthly\\nWeekly\\nDaily\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"eval:(!doc.salary_slip_based_on_timesheet)\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"default\":\"\",\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"ebf86d5dea\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":20,\"fieldname\":\"total_working_days\",\"label\":\"Working Days\",\"oldfieldname\":\"total_days_in_month\",\"fieldtype\":\"Float\",\"oldfieldtype\":\"Int\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":1,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"a279bca982\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":21,\"fieldname\":\"leave_without_pay\",\"label\":\"Leave Without Pay\",\"oldfieldname\":\"leave_without_pay\",\"fieldtype\":\"Float\",\"oldfieldtype\":\"Currency\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"742c6391a1\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":22,\"fieldname\":\"payment_days\",\"label\":\"Payment Days\",\"oldfieldname\":\"payment_days\",\"fieldtype\":\"Float\",\"oldfieldtype\":\"Float\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":1,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"6a00a41fb2\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":23,\"fieldname\":\"hourly_wages\",\"label\":\"\",\"fieldtype\":\"Section Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"3e588b6f58\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":24,\"fieldname\":\"timesheets\",\"label\":\"Salary Slip Timesheet\",\"fieldtype\":\"Table\",\"options\":\"Salary Slip Timesheet\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"18084f4f71\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":25,\"fieldname\":\"column_break_20\",\"fieldtype\":\"Column Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"265977a281\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":26,\"fieldname\":\"total_working_hours\",\"label\":\"Total Working Hours\",\"fieldtype\":\"Float\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":1,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"8b72b3f4ed\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":27,\"fieldname\":\"hour_rate\",\"label\":\"Hour Rate\",\"fieldtype\":\"Currency\",\"options\":\"Company:company:default_currency\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":1,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"a6f0265922\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":28,\"fieldname\":\"section_break_26\",\"label\":\"\",\"fieldtype\":\"Section Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"ce517d5932\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":29,\"fieldname\":\"bank_name\",\"label\":\"Bank Name\",\"oldfieldname\":\"bank_name\",\"fieldtype\":\"Data\",\"oldfieldtype\":\"Data\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"452e57d61f\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":30,\"fieldname\":\"bank_account_no\",\"label\":\"Bank Account No.\",\"oldfieldname\":\"bank_account_no\",\"fieldtype\":\"Data\",\"oldfieldtype\":\"Data\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"54856c4197\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":31,\"fieldname\":\"section_break_32\",\"fieldtype\":\"Section Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"b3e9ca5515\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":32,\"fieldname\":\"deduct_tax_for_unclaimed_employee_benefits\",\"label\":\"Deduct Tax For Unclaimed Employee Benefits\",\"fieldtype\":\"Check\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"975418013e\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":33,\"fieldname\":\"deduct_tax_for_unsubmitted_tax_exemption_proof\",\"label\":\"Deduct Tax For Unsubmitted Tax Exemption Proof\",\"fieldtype\":\"Check\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"e08f55d6f5\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":34,\"fieldname\":\"earning_deduction\",\"label\":\"Earning & Deduction\",\"fieldtype\":\"Section Break\",\"oldfieldtype\":\"Section Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"c3eade7944\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":35,\"fieldname\":\"earning\",\"label\":\"Earning\",\"fieldtype\":\"Column Break\",\"oldfieldtype\":\"Column Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"width\":\"50%\",\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"d3944ca963\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":36,\"fieldname\":\"earnings\",\"label\":\"Earnings\",\"oldfieldname\":\"earning_details\",\"fieldtype\":\"Table\",\"oldfieldtype\":\"Table\",\"options\":\"Salary Detail\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"1d9c137d61\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":37,\"fieldname\":\"deduction\",\"label\":\"Deduction\",\"fieldtype\":\"Column Break\",\"oldfieldtype\":\"Column Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"width\":\"50%\",\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"9381bfd6ef\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":38,\"fieldname\":\"deductions\",\"label\":\"Deductions\",\"oldfieldname\":\"deduction_details\",\"fieldtype\":\"Table\",\"oldfieldtype\":\"Table\",\"options\":\"Salary Detail\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"d73e39f7b6\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":39,\"fieldname\":\"totals\",\"label\":\"\",\"fieldtype\":\"Section Break\",\"oldfieldtype\":\"Section Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"a6fdf15d0f\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":40,\"fieldname\":\"gross_pay\",\"label\":\"Gross Pay\",\"oldfieldname\":\"gross_pay\",\"fieldtype\":\"Currency\",\"oldfieldtype\":\"Currency\",\"options\":\"Company:company:default_currency\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"4310c44a87\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":41,\"fieldname\":\"column_break_25\",\"fieldtype\":\"Column Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"470c632488\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":42,\"fieldname\":\"total_deduction\",\"label\":\"Total Deduction\",\"oldfieldname\":\"total_deduction\",\"fieldtype\":\"Currency\",\"oldfieldtype\":\"Currency\",\"options\":\"Company:company:default_currency\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"ccb4db7d25\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":43,\"fieldname\":\"loan_repayment\",\"label\":\"Loan repayment\",\"fieldtype\":\"Section Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"depends_on\":\"total_loan_repayment\",\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"26f9e96446\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":44,\"fieldname\":\"loans\",\"label\":\"Employee Loan\",\"fieldtype\":\"Table\",\"options\":\"Salary Slip Loan\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":1,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"acecf42edf\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":45,\"fieldname\":\"section_break_43\",\"fieldtype\":\"Section Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"2cc7abbb75\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":46,\"fieldname\":\"total_principal_amount\",\"label\":\"Total Principal Amount\",\"fieldtype\":\"Currency\",\"options\":\"Company:company:default_currency\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"default\":\"0\",\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"92be3a1967\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":47,\"fieldname\":\"total_interest_amount\",\"label\":\"Total Interest Amount\",\"fieldtype\":\"Currency\",\"options\":\"Company:company:default_currency\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"default\":\"0\",\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"139665c5cd\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":48,\"fieldname\":\"column_break_45\",\"fieldtype\":\"Column Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"9142bc2b39\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":49,\"fieldname\":\"total_loan_repayment\",\"label\":\"Total Loan Repayment\",\"fieldtype\":\"Currency\",\"options\":\"Company:company:default_currency\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"default\":\"0\",\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"96a41a6d26\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":50,\"fieldname\":\"net_pay_info\",\"label\":\"net pay info\",\"fieldtype\":\"Section Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"b37d32de0c\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":51,\"fieldname\":\"net_pay\",\"label\":\"Net Pay\",\"oldfieldname\":\"net_pay\",\"fieldtype\":\"Currency\",\"oldfieldtype\":\"Currency\",\"options\":\"Company:company:default_currency\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"description\":\"Gross Pay - Total Deduction - Loan Repayment\",\"in_list_view\":1,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"f66e55bda2\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":52,\"fieldname\":\"column_break_53\",\"fieldtype\":\"Column Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"b14b62c91d\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":53,\"fieldname\":\"rounded_total\",\"label\":\"Rounded Total\",\"fieldtype\":\"Currency\",\"options\":\"Company:company:default_currency\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":1,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"217b2ffa8c\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":54,\"fieldname\":\"section_break_55\",\"fieldtype\":\"Section Break\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":0,\"precision\":\"\",\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"5b51230b0e\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":55,\"fieldname\":\"total_in_words\",\"label\":\"Total in words\",\"oldfieldname\":\"net_pay_in_words\",\"fieldtype\":\"Data\",\"oldfieldtype\":\"Data\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":0,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":0,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":0,\"columns\":0,\"description\":\"Net Pay (in words) will be visible once you save the Salary Slip.\",\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"},{\"name\":\"6c6f2f5927\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"fields\",\"parenttype\":\"DocType\",\"idx\":56,\"fieldname\":\"amended_from\",\"label\":\"Amended From\",\"oldfieldname\":\"amended_from\",\"fieldtype\":\"Link\",\"oldfieldtype\":\"Data\",\"options\":\"Salary Slip\",\"search_index\":0,\"hidden\":0,\"set_only_once\":0,\"allow_in_quick_entry\":0,\"print_hide\":1,\"report_hide\":0,\"reqd\":0,\"bold\":0,\"in_global_search\":0,\"collapsible\":0,\"unique\":0,\"no_copy\":1,\"allow_on_submit\":0,\"show_preview_popup\":0,\"permlevel\":0,\"ignore_user_permissions\":1,\"columns\":0,\"in_list_view\":0,\"in_standard_filter\":0,\"in_preview\":0,\"read_only\":1,\"length\":0,\"translatable\":0,\"ignore_xss_filter\":0,\"remember_last_selected_value\":0,\"allow_bulk_edit\":0,\"in_filter\":0,\"print_hide_if_no_value\":0,\"fetch_if_empty\":0,\"doctype\":\"DocField\"}],\"permissions\":[{\"name\":\"4b2eb8d0eb\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"permissions\",\"parenttype\":\"DocType\",\"idx\":1,\"permlevel\":0,\"role\":\"HR User\",\"read\":1,\"write\":1,\"create\":1,\"submit\":1,\"cancel\":0,\"delete\":0,\"amend\":0,\"report\":1,\"export\":0,\"import\":0,\"share\":1,\"print\":1,\"email\":1,\"set_user_permissions\":0,\"if_owner\":0,\"doctype\":\"DocPerm\"},{\"name\":\"b4e2f9efdd\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"permissions\",\"parenttype\":\"DocType\",\"idx\":2,\"permlevel\":0,\"role\":\"HR Manager\",\"read\":1,\"write\":1,\"create\":1,\"submit\":1,\"cancel\":1,\"delete\":1,\"amend\":1,\"report\":1,\"export\":0,\"import\":0,\"share\":1,\"print\":1,\"email\":1,\"set_user_permissions\":0,\"if_owner\":0,\"doctype\":\"DocPerm\"},{\"name\":\"9eae88c9c5\",\"creation\":\"2013-01-10 16:34:15\",\"modified\":\"2019-08-28 13:54:45.908966\",\"modified_by\":\"Administrator\",\"owner\":\"Administrator\",\"docstatus\":0,\"parent\":\"Salary Slip\",\"parentfield\":\"permissions\",\"parenttype\":\"DocType\",\"idx\":3,\"permlevel\":0,\"role\":\"Employee\",\"read\":1,\"write\":0,\"create\":0,\"submit\":0,\"cancel\":0,\"delete\":0,\"amend\":0,\"report\":0,\"export\":0,\"import\":0,\"share\":0,\"print\":0,\"email\":0,\"set_user_permissions\":0,\"if_owner\":0,\"doctype\":\"DocPerm\"}],\"__last_sync_on\":\"2019-12-28T13:05:35.061Z\",\"__unsaved\":1}"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
-    response = frappe.api.handle()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
-    return frappe.handler.handle()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
-    data = execute_cmd(cmd)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
-    return fn(*args, **newargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/desk/form/save.py", line 22, in savedocs
-    doc.save()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
-    return self._save(*args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 324, in _save
-    self.run_post_save_methods()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 917, in run_post_save_methods
-    self.run_method("on_update")
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
-    out = Document.hook(fn)(self, *args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
-    return composed(self, method, *args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
-    add_to_return_value(self, fn(self, *args, **kwargs))
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
-    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py", line 281, in on_update
-    raise e
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/doctype/doctype.py", line 278, in on_update
-    frappe.db.updatedb(self.name, self)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/mariadb/database.py", line 291, in updatedb
-    db_table.sync()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/schema.py", line 36, in sync
-    self.alter()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py", line 86, in alter
-    raise e
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/mariadb/schema.py", line 75, in alter
-    frappe.db.sql(query)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 171, in sql
-    self._cursor.execute(query)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
-    result = self._query(query)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
-    conn.query(q)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
-    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
-    result.read()
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
-    first_packet = self.connection._read_packet()
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
-    packet.check_error()
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
-    err.raise_mysql_exception(self._data)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
-    raise errorclass(errno, errval)
-pymysql.err.DataError: (1265, "Data truncated for column 'total_orders_delivered' at row 1")
-[ERROR] 2019-12-28 16:47:07,850 | /home/mandy/frappe-bench/apps/frappe/frappe/app.py:
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:28:22,448 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
-Form Dict: {
- "cmd": "upload_file",
- "docname": "IM-00139",
- "doctype": "Project",
- "folder": "Home/Attachments",
- "is_private": "0"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
-    response = frappe.api.handle()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
-    return frappe.handler.handle()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
-    data = execute_cmd(cmd)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
-    return fn(*args, **newargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 193, in upload_file
-    ret.save(ignore_permissions=ignore_permissions)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
-    return self._save(*args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
-    self.insert()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 252, in insert
-    self.run_method("after_insert")
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
-    out = Document.hook(fn)(self, *args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
-    return composed(self, method, *args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
-    add_to_return_value(self, fn(self, *args, **kwargs))
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
-    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 75, in after_insert
-    self.update_parent_folder_size()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 162, in update_parent_folder_size
-    frappe.get_doc("File", self.folder).set_folder_size()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 144, in set_folder_size
-    self.db_set('file_size', self.file_size)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 992, in db_set
-    self.modified, self.modified_by, update_modified=update_modified)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 652, in set_value
-    values, debug=debug)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 156, in sql
-    self._cursor.execute(query, values)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
-    result = self._query(query)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
-    conn.query(q)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
-    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
-    result.read()
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
-    first_packet = self.connection._read_packet()
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
-    packet.check_error()
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
-    err.raise_mysql_exception(self._data)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
-    raise errorclass(errno, errval)
-pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
-[ERROR] 2019-12-28 17:01:00,831 | /home/mandy/frappe-bench/apps/frappe/frappe/app.py:
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:29:22,647 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
-Form Dict: {
- "cmd": "upload_file",
- "docname": "IM-00139",
- "doctype": "Project",
- "folder": "Home/Attachments",
- "is_private": "0"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
-    response = frappe.api.handle()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
-    return frappe.handler.handle()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
-    data = execute_cmd(cmd)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
-    return fn(*args, **newargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 193, in upload_file
-    ret.save(ignore_permissions=ignore_permissions)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
-    return self._save(*args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
-    self.insert()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 252, in insert
-    self.run_method("after_insert")
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
-    out = Document.hook(fn)(self, *args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
-    return composed(self, method, *args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
-    add_to_return_value(self, fn(self, *args, **kwargs))
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
-    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 75, in after_insert
-    self.update_parent_folder_size()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 162, in update_parent_folder_size
-    frappe.get_doc("File", self.folder).set_folder_size()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 144, in set_folder_size
-    self.db_set('file_size', self.file_size)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 992, in db_set
-    self.modified, self.modified_by, update_modified=update_modified)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 652, in set_value
-    values, debug=debug)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 156, in sql
-    self._cursor.execute(query, values)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
-    result = self._query(query)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
-    conn.query(q)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
-    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
-    result.read()
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
-    first_packet = self.connection._read_packet()
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
-    packet.check_error()
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
-    err.raise_mysql_exception(self._data)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
-    raise errorclass(errno, errval)
-pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
-[ERROR] 2019-12-28 17:01:00,885 | /home/mandy/frappe-bench/apps/frappe/frappe/app.py:
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:30:22,842 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
-Form Dict: {
- "cmd": "upload_file",
- "docname": "IM-00139",
- "doctype": "Project",
- "folder": "Home/Attachments",
- "is_private": "0"
-}
-Request Error
-Traceback (most recent call last):
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
-    response = frappe.api.handle()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
-    return frappe.handler.handle()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
-    data = execute_cmd(cmd)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
-    return frappe.call(method, **frappe.form_dict)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
-    return fn(*args, **newargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 193, in upload_file
-    ret.save(ignore_permissions=ignore_permissions)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 271, in save
-    return self._save(*args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 294, in _save
-    self.insert()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 252, in insert
-    self.run_method("after_insert")
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 786, in run_method
-    out = Document.hook(fn)(self, *args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1056, in composer
-    return composed(self, method, *args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 1039, in runner
-    add_to_return_value(self, fn(self, *args, **kwargs))
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 780, in <lambda>
-    fn = lambda self, *args, **kwargs: getattr(self, method)(*args, **kwargs)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 75, in after_insert
-    self.update_parent_folder_size()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 162, in update_parent_folder_size
-    frappe.get_doc("File", self.folder).set_folder_size()
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/file/file.py", line 144, in set_folder_size
-    self.db_set('file_size', self.file_size)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/model/document.py", line 992, in db_set
-    self.modified, self.modified_by, update_modified=update_modified)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 652, in set_value
-    values, debug=debug)
-  File "/home/mandy/frappe-bench/apps/frappe/frappe/database/database.py", line 156, in sql
-    self._cursor.execute(query, values)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 170, in execute
-    result = self._query(query)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/cursors.py", line 328, in _query
-    conn.query(q)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 517, in query
-    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 732, in _read_query_result
-    result.read()
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 1075, in read
-    first_packet = self.connection._read_packet()
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/connections.py", line 684, in _read_packet
-    packet.check_error()
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/protocol.py", line 220, in check_error
-    err.raise_mysql_exception(self._data)
-  File "/home/mandy/frappe-bench/env/lib/python3.6/site-packages/pymysql/err.py", line 109, in raise_mysql_exception
-    raise errorclass(errno, errval)
-pymysql.err.OperationalError: (1213, 'Deadlock found when trying to get lock; try restarting transaction')
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:31:23,042 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:32:23,294 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:33:23,508 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:34:23,700 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:35:23,908 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:36:24,243 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:37:24,449 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:38:24,649 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:39:24,857 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:40:25,112 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:41:25,386 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:42:25,578 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:43:25,761 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:44:26,005 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:45:26,213 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:46:26,423 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:47:26,615 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:48:26,859 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:49:27,064 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:50:27,273 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:51:27,480 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:52:27,732 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:53:27,931 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:54:28,138 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:55:28,363 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:56:28,610 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:57:28,818 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:58:29,026 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 01:59:29,200 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:00:29,514 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:01:29,703 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:02:29,877 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:03:30,052 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:04:30,295 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:05:30,486 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:06:30,661 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:07:30,843 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:08:31,076 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:09:31,253 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:10:31,444 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:11:31,638 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:12:31,856 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:13:32,047 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:14:32,305 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:15:32,488 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:16:32,733 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:17:32,925 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:18:33,107 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:19:33,290 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:20:33,523 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:21:33,716 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:22:33,907 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:23:34,090 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:24:34,324 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:25:34,516 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:26:34,702 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:27:34,894 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:28:35,143 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:29:35,334 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:30:35,534 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:31:35,721 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:32:35,962 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:33:36,163 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:34:36,377 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:35:36,570 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:36:36,803 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:37:37,004 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:38:37,204 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:39:37,405 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:40:37,662 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:41:37,857 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:42:38,065 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:43:38,273 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:44:38,516 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:45:38,723 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:46:38,940 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:47:39,206 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:48:39,440 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:49:39,647 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:50:39,856 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:51:40,056 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:52:40,296 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:53:40,496 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:54:40,705 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:55:40,904 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:56:41,146 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:57:41,346 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:58:41,563 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 02:59:41,771 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:00:42,118 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:01:42,324 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:02:42,515 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:03:42,714 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:04:42,966 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:05:43,181 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:06:43,381 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:07:43,580 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:08:43,821 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:09:44,030 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:10:44,264 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:11:44,489 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:12:44,742 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:13:44,930 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:14:45,121 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:15:45,313 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:16:45,578 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:17:45,773 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:18:45,982 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:19:46,189 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:20:46,440 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:21:46,639 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:22:46,856 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:23:47,063 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:24:47,308 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:25:47,513 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:26:47,721 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:27:47,938 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:28:48,180 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:29:48,388 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:30:48,596 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:31:48,789 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:32:49,032 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:33:49,237 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:34:49,453 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:35:49,646 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:36:49,887 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:37:50,095 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:38:50,312 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:39:50,496 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:40:50,729 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:41:50,922 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:42:51,105 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:43:51,297 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:44:51,529 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:45:51,722 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:46:51,924 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:47:52,115 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:48:52,339 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:49:52,540 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:50:52,731 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:51:52,933 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:52:53,190 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:53:53,449 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:54:53,640 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:55:53,834 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:56:54,059 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:57:54,250 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:58:54,466 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 03:59:54,658 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:00:54,954 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:01:55,146 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:02:55,337 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:03:55,520 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:04:55,772 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:05:55,963 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:06:56,154 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:07:56,354 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:08:56,595 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:09:56,788 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:10:57,045 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:11:57,256 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:12:57,488 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:13:57,690 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:14:57,889 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:15:58,097 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:16:58,367 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:17:58,564 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:18:58,772 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:19:58,971 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:20:59,208 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:21:59,417 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:22:59,614 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:23:59,813 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:25:00,046 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:26:00,256 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:27:00,457 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:28:00,709 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:29:00,899 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:30:01,098 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:31:01,289 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:32:01,540 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:33:01,725 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:34:01,925 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:35:02,132 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:36:02,408 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:37:02,619 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:38:02,827 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:39:03,027 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:40:03,273 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:41:03,478 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:42:03,689 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:43:03,897 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:44:04,139 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:45:04,338 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:46:04,538 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:47:04,747 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:48:04,999 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:49:05,197 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:50:05,404 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:51:05,613 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:52:05,907 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:53:06,100 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:54:06,282 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:55:06,481 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:56:06,724 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:57:06,931 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:58:07,133 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 04:59:07,332 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:00:07,716 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:01:07,919 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:02:08,118 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:03:08,318 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:04:08,567 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:05:08,775 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:06:08,967 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:07:09,175 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:08:09,436 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:09:09,637 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:10:09,820 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:11:10,036 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:12:10,287 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:13:10,482 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:14:10,688 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:15:10,897 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:16:11,138 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:17:11,322 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:18:11,505 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:19:11,696 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:20:11,935 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:21:12,122 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:22:12,313 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:23:12,496 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:24:12,721 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:25:12,911 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:26:13,103 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:27:13,294 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:28:13,529 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:29:13,719 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:30:13,911 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:31:14,102 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:32:14,326 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:33:14,528 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:34:14,719 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:35:14,903 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:36:15,139 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:37:15,345 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:38:15,540 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:39:15,740 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:40:16,006 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:41:16,200 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:42:16,391 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:43:16,591 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:44:16,831 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:45:17,015 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:46:17,207 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:47:17,415 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:48:17,650 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:49:17,868 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:50:18,068 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:51:18,267 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:52:18,525 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:53:18,725 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:54:18,926 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:55:19,133 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:56:19,376 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:57:19,574 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:58:19,769 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 05:59:19,960 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:00:20,433 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:01:20,642 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:02:20,841 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:03:21,035 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:04:21,272 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:05:21,452 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:06:21,720 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:07:21,936 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:08:22,183 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:09:22,389 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:10:22,597 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:11:22,804 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:12:23,048 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:13:23,255 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:14:23,454 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:15:23,654 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:16:23,905 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:17:24,105 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:18:25,014 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:19:25,223 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:20:25,474 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:21:25,682 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:22:25,881 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:23:26,081 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:24:26,321 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:25:26,540 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:26:26,740 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:27:26,939 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:28:27,185 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:29:27,442 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:30:27,640 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:31:27,848 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:32:28,102 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:33:28,299 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:34:28,499 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:35:28,698 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:36:28,974 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:37:29,169 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:38:29,377 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:39:29,577 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:40:29,813 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:41:30,019 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:42:30,226 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:43:30,437 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:44:30,688 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:45:30,887 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:46:31,086 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:47:31,287 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:48:31,529 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:49:31,738 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:50:31,997 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:51:32,182 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:52:32,431 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:53:32,634 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:54:32,833 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:55:33,108 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:56:33,359 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:57:33,542 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:58:33,733 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 06:59:33,941 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:00:34,223 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:01:34,402 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:02:34,593 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:03:34,779 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:04:34,997 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:05:35,187 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:06:35,378 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:07:35,578 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:08:35,812 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:09:36,006 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:10:36,196 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:11:36,388 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:12:36,663 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:13:36,849 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:14:37,042 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:15:37,233 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:16:37,473 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:17:37,658 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:18:37,853 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:19:38,036 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:20:38,280 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:21:38,477 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:22:38,669 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:23:38,853 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:24:39,076 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:25:39,268 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:26:39,477 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:27:39,668 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:28:39,902 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:29:40,101 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:30:40,310 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:31:40,503 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:32:40,744 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:33:41,002 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:34:41,210 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:35:41,402 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:36:41,634 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:37:41,835 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:38:42,035 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:39:42,238 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:40:42,471 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:41:42,672 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:42:42,872 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:43:43,105 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:44:43,357 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:45:43,557 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:46:43,757 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:47:43,957 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:48:44,181 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:49:44,381 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:50:44,599 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:51:44,798 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:52:45,047 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:53:45,247 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:54:45,457 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:55:45,656 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:56:45,897 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:57:46,098 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:58:46,305 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 07:59:46,500 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:00:46,810 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:01:47,010 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:02:47,218 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:03:47,426 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:04:47,677 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:05:47,876 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:06:48,068 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:07:48,275 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:08:48,529 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:09:48,729 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:10:48,937 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:11:49,212 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:12:49,444 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:13:49,654 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:14:49,856 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:15:50,055 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:16:50,306 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:17:50,523 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:18:50,797 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:19:50,984 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:20:51,233 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:21:51,434 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:22:51,650 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:23:51,842 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:24:52,090 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:25:52,302 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:26:52,519 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:27:52,720 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:28:52,965 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:29:53,178 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:30:53,387 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:31:53,594 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:32:53,866 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:33:54,085 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:34:54,298 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:35:54,514 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:36:54,757 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:37:54,964 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:38:55,180 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:39:55,390 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:40:55,632 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:41:55,824 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:42:56,015 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:43:56,198 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:44:56,423 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:45:56,616 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:46:56,799 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:47:56,981 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:48:57,205 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:49:57,399 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:50:57,640 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:51:57,815 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:52:58,058 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:53:58,248 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:54:58,432 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:55:58,624 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:56:58,869 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:57:59,051 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:58:59,241 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 08:59:59,435 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:00:59,720 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:01:59,911 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:03:00,119 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:04:00,362 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:05:00,557 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:06:00,782 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:07:00,964 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:08:01,262 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:09:01,485 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:10:01,665 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:11:01,848 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:12:02,081 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:13:02,273 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:14:02,464 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:15:02,682 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:16:02,934 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:17:03,124 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:18:03,315 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:19:03,506 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:20:03,818 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:21:04,008 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:22:04,217 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:23:04,416 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:24:04,725 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:25:04,992 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:26:05,183 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:27:05,391 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:28:05,632 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:29:05,841 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:30:06,035 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:31:06,235 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:32:06,484 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:33:06,693 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:34:06,883 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:35:07,066 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:36:07,308 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:37:07,517 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:38:07,707 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:39:07,957 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:40:08,209 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:41:08,419 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:42:08,612 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:43:08,802 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:44:09,043 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:45:09,243 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:46:09,443 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:47:09,643 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:48:09,875 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:49:10,067 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:50:10,250 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:51:10,444 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:52:10,693 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:53:10,908 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:54:11,116 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:55:11,307 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:56:11,554 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:57:11,766 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:58:11,982 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 09:59:12,182 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:00:12,477 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:01:12,678 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:02:12,878 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:03:13,078 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:04:13,346 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:05:13,544 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:06:13,731 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:07:13,933 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:08:14,174 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:09:14,367 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:10:14,577 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:11:14,771 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:12:15,013 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:13:15,222 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:14:15,430 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:15:15,629 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:16:15,860 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:17:16,068 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:18:16,269 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:19:16,468 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:20:16,719 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:21:16,920 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:22:17,137 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:23:17,320 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:24:17,547 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:25:17,719 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:26:17,907 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:27:18,089 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:28:18,342 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:29:18,523 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:30:18,714 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:31:18,964 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:32:19,192 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:33:19,377 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:34:19,568 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:35:19,768 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:36:19,999 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:37:20,191 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:38:20,392 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:39:20,584 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:40:20,816 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:41:21,010 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:42:21,197 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:43:21,388 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:44:21,632 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:45:21,822 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:46:22,014 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:47:22,196 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:48:22,438 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:49:22,614 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:50:22,796 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:51:22,997 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:52:23,238 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:53:23,431 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:54:23,624 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:55:23,818 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:56:24,065 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:57:24,240 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:58:24,450 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 10:59:24,642 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:00:24,934 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:01:25,135 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:02:25,317 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:03:25,510 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:04:25,750 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:05:25,941 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:06:26,142 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:07:26,348 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:08:26,591 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:09:26,799 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:10:27,002 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:11:27,200 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:12:27,444 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:13:27,644 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:14:27,846 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:15:28,038 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:16:28,280 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:17:28,490 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:18:28,691 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:19:28,890 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:20:29,135 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:21:29,357 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:22:29,567 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:23:29,766 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:24:30,021 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:25:30,223 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:26:30,408 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:27:30,603 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:28:30,844 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:29:31,053 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:30:31,252 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:31:31,437 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:32:31,678 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:33:31,875 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:34:32,092 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:35:32,299 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:36:32,541 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:37:32,805 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:38:33,005 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:39:33,197 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:40:33,444 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:41:33,670 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:42:33,865 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:43:34,073 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:44:34,297 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:45:34,500 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:46:34,692 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:47:34,904 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:48:35,157 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:49:35,354 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:50:35,553 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:51:35,771 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:52:36,070 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:53:36,276 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:54:36,467 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:55:36,666 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:56:36,955 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:57:37,152 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:58:37,368 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 11:59:37,578 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:00:37,884 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:01:38,087 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:02:38,289 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:03:38,479 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:04:38,718 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:05:38,902 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:06:39,085 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:07:39,266 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:08:39,506 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:09:39,716 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:10:39,924 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:11:40,125 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:12:40,353 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:13:40,541 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:14:40,733 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:15:40,916 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:16:41,166 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:17:41,365 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:18:41,557 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:19:41,741 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:20:41,984 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:21:42,169 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:22:42,423 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:23:42,610 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:24:42,836 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:25:43,088 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:26:43,273 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:27:43,455 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:28:43,689 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:29:43,877 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
+[DEBUG] 2020-03-14 12:30:44,080 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Site: site1.local
+Queued events for site site1.local
