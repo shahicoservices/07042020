@@ -1,1986 +1,1974 @@
-[DEBUG] 2020-03-10 19:56:51,703 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:40:27,338 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 19:57:51,941 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:41:27,573 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 19:58:52,133 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:42:27,782 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 19:59:52,342 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:43:27,991 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:00:52,643 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:44:28,228 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:01:52,841 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:45:28,425 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:02:53,043 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:46:28,603 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:03:53,245 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:47:28,789 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:04:53,490 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:48:29,087 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:05:53,699 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:49:29,270 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:06:53,906 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:50:29,466 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:07:54,105 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:51:29,652 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:08:54,355 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:52:29,880 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:09:54,542 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:53:30,067 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:10:54,724 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:54:30,261 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:11:54,931 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:55:30,446 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:12:55,175 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:56:30,682 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:13:55,386 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:57:30,868 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:14:55,633 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:58:31,057 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:15:55,829 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 10:59:31,244 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:16:56,079 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:00:31,549 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:17:56,296 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:01:31,722 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:18:56,496 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:02:31,918 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:19:56,695 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:03:32,105 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:20:56,956 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:04:32,379 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:21:57,162 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:05:32,569 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:22:57,363 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:06:32,753 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:23:57,573 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:07:32,945 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:24:57,819 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:08:33,185 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:25:58,020 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:09:33,381 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:26:58,211 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:10:33,583 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:27:58,421 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:11:33,778 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:28:58,672 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:12:34,086 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:29:58,863 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:13:34,273 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:30:59,064 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:14:34,475 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:31:59,263 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:15:34,678 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:32:59,508 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:16:34,928 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:33:59,722 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:17:35,131 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:34:59,908 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:18:35,333 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:36:00,142 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:19:35,534 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:37:00,334 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:20:35,782 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:38:00,593 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:21:35,968 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:39:00,812 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:22:36,170 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:40:01,047 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:23:36,376 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:41:01,257 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:24:36,614 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:42:01,472 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:25:36,814 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:43:01,666 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:26:37,017 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:44:01,918 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:27:37,271 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:45:02,130 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:28:37,518 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:46:02,346 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:29:37,722 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:47:02,562 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:30:37,925 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:48:02,811 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:31:38,120 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:49:03,025 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:32:38,357 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:50:03,199 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:33:38,564 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:51:03,390 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:34:38,767 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:52:03,625 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:35:38,978 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:53:03,817 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:36:39,221 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:54:04,000 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:37:39,419 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:55:04,183 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:38:39,634 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:56:04,416 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:39:39,876 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:57:04,616 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:40:40,114 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:58:04,800 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:41:40,300 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 20:59:04,992 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:42:40,502 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:00:05,280 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:43:40,708 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:01:05,474 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:44:40,945 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:02:05,657 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:45:41,126 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:03:05,848 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:46:41,326 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:04:06,082 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:47:41,519 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:05:06,283 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:48:41,770 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:06:06,455 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:49:41,975 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:07:06,648 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:50:42,192 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:08:06,897 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:51:42,399 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:09:07,170 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:52:42,646 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:10:07,361 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:53:42,839 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:11:07,552 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:54:43,108 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:12:07,786 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:55:43,302 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:13:07,986 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:56:43,562 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:14:08,171 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:57:43,766 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:15:08,381 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:58:43,970 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:16:08,615 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 11:59:44,169 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:17:08,798 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:00:44,483 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:18:08,989 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:01:44,693 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:19:09,176 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:02:44,976 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:20:09,409 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:03:45,181 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:21:09,634 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:04:45,416 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:22:09,820 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:05:45,719 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:23:10,010 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:06:45,911 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:24:10,255 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:07:46,124 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:25:10,448 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:08:46,379 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:26:10,647 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:09:46,598 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:27:10,855 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:10:46,782 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:28:11,108 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:11:46,987 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:29:11,298 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:12:47,240 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:30:11,492 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:13:47,463 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:31:11,692 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:14:47,666 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:32:11,926 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:15:47,851 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:33:12,159 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:16:48,088 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:34:12,359 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:17:48,299 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:35:12,551 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:18:48,503 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:36:12,801 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:19:48,684 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:37:13,002 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:20:48,914 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:38:13,201 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:21:49,085 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:39:13,387 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:22:49,282 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:40:13,628 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:23:49,466 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:41:13,820 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:24:49,703 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:42:14,010 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:25:49,868 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:43:14,219 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:26:50,050 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:44:14,487 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:27:50,241 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:45:14,675 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:28:50,508 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:46:14,874 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:29:50,696 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:47:15,083 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:30:50,875 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:48:15,332 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:31:51,060 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:49:15,525 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:32:51,293 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:50:15,717 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:33:51,483 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:51:15,916 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:34:51,657 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:52:16,173 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:35:51,850 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:53:16,367 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:36:52,085 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:54:16,558 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:37:52,277 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:55:16,760 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:38:52,484 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:56:17,011 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:39:52,673 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:57:17,194 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:40:52,902 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:58:17,401 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:41:53,079 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 21:59:17,592 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:42:53,282 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:00:17,894 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:43:53,482 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:01:18,098 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:44:53,739 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:02:18,301 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:45:53,934 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:03:18,500 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:46:54,133 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:04:18,763 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:47:54,325 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:05:18,967 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:48:54,572 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:06:19,184 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:49:54,754 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:07:19,392 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:50:54,954 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:08:19,642 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:51:55,134 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:09:19,827 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:52:55,368 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:10:20,029 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:53:55,557 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:11:20,236 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:54:55,749 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:12:20,480 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:55:55,954 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:13:20,680 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:56:56,260 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:14:20,887 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:57:56,455 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:15:21,104 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:58:56,644 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:16:21,356 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 12:59:56,843 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:17:21,565 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:00:57,425 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:18:21,764 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:01:57,618 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:19:21,948 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:02:57,833 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:20:22,199 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:03:58,038 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:21:22,400 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:04:58,279 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:22:22,616 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:05:58,492 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:23:22,815 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:06:58,684 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:24:23,057 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:07:58,886 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:25:23,259 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:08:59,124 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:26:23,466 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:09:59,311 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:27:23,676 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:10:59,499 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:28:23,926 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:11:59,696 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:29:24,128 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:12:59,931 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:30:24,315 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:14:00,113 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:31:24,498 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:15:00,290 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:32:24,735 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:16:00,554 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:33:24,923 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:17:00,746 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:34:25,113 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:18:00,928 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:35:25,300 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:19:01,170 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:36:25,526 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:20:01,417 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:37:25,712 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:21:01,627 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:38:25,896 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:22:01,856 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:39:26,083 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:23:02,053 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:40:26,314 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:24:02,335 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:41:26,504 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:25:02,527 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:42:26,698 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:26:02,738 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:43:26,891 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:27:02,928 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:44:27,119 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:28:03,157 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:45:27,317 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:29:03,339 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:46:27,518 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:30:03,553 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:47:27,712 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:31:03,726 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:48:27,988 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:32:03,968 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:49:28,172 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:33:04,150 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:50:28,433 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:34:04,361 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:51:28,619 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:35:04,570 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:52:28,870 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:36:04,806 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:53:29,053 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:37:04,990 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:54:29,251 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:38:05,213 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:55:29,455 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:39:05,414 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:56:29,710 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:40:05,718 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:57:29,910 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:41:05,927 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:58:30,102 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:42:06,126 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 22:59:30,301 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:43:06,375 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:00:30,602 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:44:06,609 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:01:30,798 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:45:06,808 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:02:30,985 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:46:07,001 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:03:31,175 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:47:07,205 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:04:31,420 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:48:07,440 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:05:31,601 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:49:07,647 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:06:31,783 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:50:07,859 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:07:31,967 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:51:08,061 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:08:32,201 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:52:08,313 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:09:32,405 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:53:08,508 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:10:32,608 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:54:08,711 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:11:32,816 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:55:08,894 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:12:33,062 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:56:09,133 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:13:33,257 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:57:09,324 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:14:33,459 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:58:09,507 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:15:33,658 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 13:59:09,701 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:16:33,930 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:00:10,000 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:17:34,136 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:01:10,193 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:18:34,328 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:02:10,375 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:19:34,527 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:03:10,561 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:20:34,772 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:04:10,802 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:21:34,972 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:05:10,989 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:22:35,197 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:06:11,180 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:23:35,405 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:07:11,427 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:24:35,659 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:08:11,655 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:25:35,855 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:09:11,847 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:26:36,054 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:10:12,040 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:27:36,256 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:11:12,232 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:28:36,505 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:12:12,452 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:29:36,706 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:13:12,633 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:30:36,909 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:14:12,818 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:31:37,108 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:15:13,011 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:32:37,358 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:16:13,242 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:33:37,542 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:17:13,429 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:34:37,759 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:18:13,630 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:35:37,942 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:19:13,826 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:36:38,199 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:20:14,236 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:37:38,400 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:21:14,433 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:38:38,599 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:22:14,664 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:39:38,786 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:23:14,867 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:40:39,038 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:24:15,107 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:41:39,247 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:25:15,292 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:42:39,439 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:26:15,485 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:43:39,655 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:27:15,694 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:44:39,899 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:28:15,930 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:45:40,108 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:29:16,122 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:46:40,308 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:30:16,316 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:47:40,516 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:31:16,511 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:48:40,770 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:32:16,759 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:49:40,975 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:33:16,948 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:50:41,166 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:34:17,152 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:51:41,357 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:35:17,370 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:52:41,652 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:36:17,611 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:53:41,842 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:37:17,792 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:54:42,033 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:38:18,001 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:55:42,220 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:39:18,196 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:56:42,519 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:40:18,438 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:57:42,712 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:41:18,633 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:58:42,908 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:42:18,814 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-10 23:59:43,144 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:43:19,009 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:00:43,650 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:44:19,266 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:01:43,858 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:45:19,467 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:02:44,055 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:46:19,675 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:03:44,239 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:47:19,890 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:04:44,463 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:48:20,126 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:05:44,659 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:49:20,323 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:06:44,862 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:50:20,505 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:07:45,058 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:51:20,695 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:08:45,287 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:52:20,935 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:09:45,470 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:53:21,146 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:10:45,662 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:54:21,330 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:11:45,870 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:55:21,519 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:12:46,095 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:56:21,771 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:13:46,278 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:57:21,970 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:14:46,479 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:58:22,165 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:15:46,679 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 14:59:22,374 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:16:46,899 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:00:22,687 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:17:47,107 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:01:22,877 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:18:47,289 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:02:23,083 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:19:47,480 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:03:23,293 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:20:47,723 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:04:23,540 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:21:47,915 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:05:23,738 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:22:48,106 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:06:23,946 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:23:48,306 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:07:24,134 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:24:48,538 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:08:24,359 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:25:48,748 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:09:24,539 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:26:48,940 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:10:24,749 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:27:49,139 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:11:24,957 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:28:49,422 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:12:25,184 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:29:49,617 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:13:25,396 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:30:49,825 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:14:25,592 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:31:50,033 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:15:25,795 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:32:50,267 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:16:26,039 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:33:50,467 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:17:26,228 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:34:50,675 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:18:26,425 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:35:50,891 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:19:26,629 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:36:51,115 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:20:26,877 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:37:51,334 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:21:27,067 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:38:51,525 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:22:27,252 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:39:51,717 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:23:27,454 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:40:51,950 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:24:27,696 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:41:52,153 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:25:27,901 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:42:52,336 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:26:28,111 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:43:52,535 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:27:28,298 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:44:52,769 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:28:28,527 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:45:52,969 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:29:28,742 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:46:53,172 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:30:28,959 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:47:53,387 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:31:29,163 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:48:53,637 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:32:29,390 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:49:53,830 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:33:29,571 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:50:54,021 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:34:29,755 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:51:54,229 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:35:29,952 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:52:54,471 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:36:30,264 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:53:54,672 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:37:30,455 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:54:54,880 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:38:30,637 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:55:55,087 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:39:30,819 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:56:55,333 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:40:31,051 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:57:55,522 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:41:31,309 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:58:55,729 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:42:31,501 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 00:59:55,946 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:43:31,691 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:00:56,250 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:44:31,928 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:01:56,447 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:45:32,107 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:02:56,722 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:46:32,306 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:03:56,913 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:47:32,506 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:04:57,151 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:48:32,737 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:05:57,356 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:49:32,922 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:06:57,558 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:50:33,116 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:07:57,758 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:51:33,306 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:08:58,008 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:52:33,535 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:09:58,209 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:53:33,719 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:10:58,400 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:54:33,920 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:11:58,595 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:55:34,115 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:12:58,838 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:56:34,341 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:13:59,020 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:57:34,520 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:14:59,227 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:58:34,722 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:15:59,428 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 15:59:34,918 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:16:59,678 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:00:35,220 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:17:59,895 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:01:35,410 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:19:00,096 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:02:35,598 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:20:00,340 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:03:35,796 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:21:00,537 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:04:36,039 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:22:00,753 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:05:36,238 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:23:00,954 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:06:36,438 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:24:01,204 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:07:36,641 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:25:01,404 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:08:36,855 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:26:01,620 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:09:37,034 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:27:01,811 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:10:37,257 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:28:02,051 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:11:37,459 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:29:02,263 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:12:37,688 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:30:02,478 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:13:37,894 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:31:02,662 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:14:38,089 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:32:02,883 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:15:38,298 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:33:03,072 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:16:38,539 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:34:03,253 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:17:38,734 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:35:03,436 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:18:38,936 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:36:03,670 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:19:39,252 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:37:03,879 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:20:39,494 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:38:04,064 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:21:39,679 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:39:04,257 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:22:39,874 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:40:04,489 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:23:40,060 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:41:04,673 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:24:40,311 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:42:04,876 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:25:40,519 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:43:05,067 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:26:40,718 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:44:05,296 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:27:40,908 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:45:05,482 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:28:41,146 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:46:05,673 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:29:41,349 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:47:05,860 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:30:41,554 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:48:06,108 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:31:41,805 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:49:06,311 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:32:42,085 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:50:06,495 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:33:42,283 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:51:06,694 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:34:42,487 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:52:06,935 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:35:42,688 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:53:07,127 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:36:42,937 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:54:07,386 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:37:43,135 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:55:07,569 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:38:43,341 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:56:07,810 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:39:43,537 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:57:08,002 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:40:43,777 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:58:08,195 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:41:43,975 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 01:59:08,394 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:42:44,160 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:00:08,705 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:43:44,356 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:01:08,903 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:44:44,598 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:02:09,106 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:45:44,811 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:03:09,305 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:46:45,011 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:04:09,540 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:47:45,222 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:05:09,731 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:48:45,478 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:06:09,948 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:49:45,681 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:07:10,141 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:50:45,862 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:08:10,387 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:51:46,071 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:09:10,642 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:52:46,309 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:10:10,842 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:53:46,487 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:11:11,033 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:54:46,691 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:12:11,280 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:55:46,890 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:13:11,486 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:56:47,216 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:14:11,685 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:57:47,385 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:15:11,893 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:58:47,569 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:16:12,141 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 16:59:47,765 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:17:12,348 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:00:48,093 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:18:12,541 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:01:48,305 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:19:12,749 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:02:48,507 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:20:12,998 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:03:48,709 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:21:13,207 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:04:48,941 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:22:13,417 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:05:49,128 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:23:13,616 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:06:49,335 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:24:13,865 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:07:49,630 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:25:14,082 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:08:49,861 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:26:14,266 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:09:50,071 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:27:14,457 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:10:50,260 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:28:14,699 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:11:50,442 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:29:14,889 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:12:50,673 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:30:15,090 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:13:50,878 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:31:15,297 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:14:51,075 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:32:15,551 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:15:51,261 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:33:15,766 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:16:51,511 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:34:15,965 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:17:51,709 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:35:16,172 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:18:51,894 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:36:16,412 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:19:52,103 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:37:16,691 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:20:52,342 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:38:16,890 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:21:52,533 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:39:17,100 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:22:52,729 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:40:17,347 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:23:52,913 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:41:17,549 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:24:53,158 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:42:17,750 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:25:53,422 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 02:43:17,966 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[ERROR] 2020-03-15 17:26:04,270 | /home/mandy/frappe-bench/apps/frappe/frappe/app.py:
 Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:44:18,216 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:45:18,409 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:46:18,608 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:47:18,802 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:48:19,010 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:49:19,470 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:50:19,686 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:51:19,876 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:52:20,123 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:53:20,329 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:54:20,528 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:55:20,727 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:56:20,969 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:57:21,187 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:58:21,387 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 02:59:21,587 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 03:00:21,901 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 03:01:22,106 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 03:02:22,317 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 03:03:22,508 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
-Site: site1.local
-Queued events for site site1.local
-[DEBUG] 2020-03-11 03:04:22,750 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+Form Dict: {
+ "cmd": "frappe.core.doctype.sms_settings.sms_settings.send_sms",
+ "msg": "Dear Sir/Ma'am, It was our pleasure serving you, your job IM-00247 is completed. We look forward to seeing you again for further details please contact 17601516 Thank you",
+ "receiver_list": "[null]"
+}
+Request Error
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 53, in send_sms
+    receiver_list = validate_receiver_nos(receiver_list)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 23, in validate_receiver_nos
+    d = d.replace(x, '')
+AttributeError: 'NoneType' object has no attribute 'replace'
+[ERROR] 2020-03-15 17:26:04,730 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py:
+Could not take error snapshot: startswith first arg must be str or a tuple of str, not bytes
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/app.py", line 60, in application
+    response = frappe.api.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/api.py", line 55, in handle
+    return frappe.handler.handle()
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 21, in handle
+    data = execute_cmd(cmd)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/handler.py", line 56, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/__init__.py", line 1036, in call
+    return fn(*args, **newargs)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 53, in send_sms
+    receiver_list = validate_receiver_nos(receiver_list)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/core/doctype/sms_settings/sms_settings.py", line 23, in validate_receiver_nos
+    d = d.replace(x, '')
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 36, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/mandy/frappe-bench/apps/frappe/frappe/utils/error.py", line 131, in get_snapshot
+    if type(value)==str and value.startswith(b"u'"):
+TypeError: startswith first arg must be str or a tuple of str, not bytes
+[DEBUG] 2020-03-15 17:26:53,612 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:05:22,951 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:27:53,809 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:06:23,160 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:28:54,038 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:07:23,371 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:29:54,217 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:08:23,622 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:30:54,406 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:09:23,831 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:31:54,608 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:10:24,022 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:32:54,868 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:11:24,205 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:33:55,064 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:12:24,433 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:34:55,260 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:13:24,623 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:35:55,435 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:14:24,839 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:36:55,672 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:15:25,089 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:37:55,869 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:16:25,314 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:38:56,054 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:17:25,506 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:39:56,257 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:18:25,692 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:40:56,498 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:19:25,892 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:41:56,690 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:20:26,136 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:42:56,902 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:21:26,317 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:43:57,085 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:22:26,508 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:44:57,322 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:23:26,702 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:45:57,517 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:24:26,929 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:46:57,719 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:25:27,111 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:47:57,914 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:26:27,310 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:48:58,148 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:27:27,510 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:49:58,362 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:28:27,768 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:50:58,539 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:29:27,961 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:51:58,719 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:30:28,152 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:52:58,971 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:31:28,335 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:53:59,151 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:32:28,580 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:54:59,345 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:33:28,778 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:55:59,557 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:34:28,967 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:56:59,796 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:35:29,158 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:57:59,983 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:36:29,395 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 17:59:00,193 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:37:29,591 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:00:00,508 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:38:29,793 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:01:00,713 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:39:29,986 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:02:00,907 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:40:30,220 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:03:01,119 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:41:30,409 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:04:01,347 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:42:30,600 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:05:01,549 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:43:30,800 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:06:01,734 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:44:31,054 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:07:01,942 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:45:31,251 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:08:02,174 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:46:31,450 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:09:02,376 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:47:31,650 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:10:02,573 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:48:31,894 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:11:02,783 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:49:32,094 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:12:03,062 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:50:32,285 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:13:03,255 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:51:32,477 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:14:03,478 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:52:32,701 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:15:03,679 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:53:32,918 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:16:03,919 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:54:33,121 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:17:04,106 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:55:33,320 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:18:04,307 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:56:33,553 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:19:04,504 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:57:33,753 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:20:04,745 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:58:33,936 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:21:04,938 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 03:59:34,120 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:22:05,137 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:00:34,475 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:23:05,350 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:01:34,679 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:24:05,583 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:02:34,881 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:25:05,793 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:03:35,079 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:26:06,064 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:04:35,348 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:27:06,262 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:05:35,549 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:28:06,511 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:06:35,757 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:29:06,688 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:07:35,966 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:30:06,880 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:08:36,214 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:31:07,089 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:09:36,427 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:32:07,417 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:10:36,626 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:33:07,596 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:11:36,818 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:34:07,790 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:12:37,066 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:35:07,965 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:13:37,276 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:36:08,193 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:14:37,483 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:37:08,381 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:15:37,692 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:38:08,573 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:16:37,943 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:39:08,770 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:17:38,142 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:40:08,996 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:18:38,341 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:41:09,178 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:19:38,535 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:42:09,369 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:20:38,779 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:43:09,562 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:21:39,027 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:44:09,803 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:22:39,236 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:45:09,994 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:23:39,435 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:46:10,195 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:24:39,682 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:47:10,381 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:25:39,888 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:48:10,615 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:26:40,095 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:49:10,795 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:27:40,288 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:50:10,995 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:28:40,537 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:51:11,203 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:29:40,746 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:52:11,430 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:30:40,953 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:53:11,622 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:31:41,153 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:54:11,799 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:32:41,403 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:55:11,995 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:33:41,602 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:56:12,221 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:34:41,796 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:57:12,416 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:35:42,005 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:58:12,599 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:36:42,254 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 18:59:12,794 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:37:42,471 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:00:13,083 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:38:42,678 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:01:13,272 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:39:42,872 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:02:13,474 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:40:43,121 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:03:13,668 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:41:43,323 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:04:13,896 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:42:43,514 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:05:14,089 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:43:43,714 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:06:14,289 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:44:43,965 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:07:14,483 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:45:44,157 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:08:14,727 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:46:44,367 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:09:14,978 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:47:44,573 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:10:15,161 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:48:44,823 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:11:15,369 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:49:45,027 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:12:15,607 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:50:45,226 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:13:15,798 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:51:45,417 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:14:15,993 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:52:45,651 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:15:16,211 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:53:45,843 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:16:16,449 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:54:46,035 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:17:16,649 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:55:46,226 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:18:16,836 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:56:46,459 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:19:17,049 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:57:46,644 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:20:17,300 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:58:46,851 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:21:17,501 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 04:59:47,030 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:22:17,708 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:00:47,322 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:23:17,895 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:01:47,500 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:24:18,142 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:02:47,700 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:25:18,342 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:03:47,900 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:26:18,535 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:04:48,151 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:27:18,746 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:05:48,345 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:28:18,982 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:06:48,544 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:29:19,179 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:07:48,744 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:30:19,367 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:08:48,989 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:31:19,557 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:09:49,187 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:32:19,808 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:10:49,388 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:33:20,019 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:11:49,570 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:34:20,231 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:12:49,801 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:35:20,433 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:13:49,994 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:36:20,684 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:14:50,188 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:37:20,861 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:15:50,379 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:38:21,136 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:16:50,625 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:39:21,347 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:17:50,821 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:40:21,590 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:18:51,013 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:41:21,785 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:19:51,211 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:42:21,993 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:20:51,528 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:43:22,210 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:21:51,704 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:44:22,454 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:22:51,903 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:45:22,649 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:23:52,111 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:46:22,848 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:24:52,348 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:47:23,058 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:25:52,538 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:48:23,300 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:26:52,771 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:49:23,528 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:27:53,022 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:50:23,714 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:28:53,249 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:51:23,932 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:29:53,447 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:52:24,182 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:30:53,655 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:53:24,375 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:31:53,854 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:54:24,585 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:32:54,091 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:55:24,787 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:33:54,305 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:56:25,041 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:34:54,504 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:57:25,247 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:35:54,696 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:58:25,456 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:36:54,943 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 19:59:25,649 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:37:55,147 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:00:25,939 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:38:55,346 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:01:26,167 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:39:55,548 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:02:26,365 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:40:55,794 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:03:26,573 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:41:55,983 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:04:26,823 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:42:56,182 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:05:27,036 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:43:56,381 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:06:27,252 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:44:56,624 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:07:27,428 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:45:56,832 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:08:27,666 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:46:57,040 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:09:27,869 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:47:57,240 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:10:28,061 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:48:57,481 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:11:28,244 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:49:57,665 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:12:28,494 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:50:57,873 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:13:28,691 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:51:58,089 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:14:28,877 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:52:58,338 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:15:29,079 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:53:58,531 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:16:29,315 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:54:58,716 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:17:29,497 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:55:58,915 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:18:29,680 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:56:59,132 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:19:29,872 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:57:59,349 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:20:30,142 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:58:59,556 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:21:30,343 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 05:59:59,775 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:22:30,528 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:01:00,137 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:23:30,702 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:02:00,331 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:24:30,951 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:03:00,549 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:25:31,149 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:04:00,817 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:26:31,351 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:05:01,006 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:27:31,549 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:06:01,215 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:28:31,783 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:07:01,414 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:29:31,968 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:08:01,651 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:30:32,160 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:09:01,899 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:31:32,354 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:10:02,124 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:32:32,587 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:11:02,316 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:33:32,779 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:12:02,557 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:34:33,013 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:13:02,756 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:35:33,189 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:14:02,965 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:36:33,414 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:15:03,341 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:37:33,616 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:16:03,585 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:38:33,799 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:17:03,797 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:39:34,008 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:18:03,996 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:40:34,252 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:19:04,205 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:41:34,446 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:20:04,445 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:42:34,645 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:21:04,657 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:43:34,845 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:22:04,865 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:44:35,127 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:23:05,065 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:45:35,339 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:24:05,319 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:46:35,544 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:25:05,515 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:47:35,736 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:26:05,707 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:48:35,970 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:27:05,932 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:49:36,162 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:28:06,202 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:50:36,362 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:29:06,399 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:51:36,582 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:30:06,598 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:52:36,831 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:31:06,806 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:53:37,014 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:32:07,065 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:54:37,215 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:33:07,248 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:55:37,417 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:34:07,505 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:56:37,640 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:35:07,696 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:57:37,859 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:36:07,920 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:58:38,067 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:37:08,135 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 20:59:38,242 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:38:08,332 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:00:38,559 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:39:08,532 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:01:38,748 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:40:08,766 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:02:38,947 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:41:08,959 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:03:39,141 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:42:09,142 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:04:39,383 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:43:09,326 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:05:39,585 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:44:09,560 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:06:39,786 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:45:09,758 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:07:39,985 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:46:09,951 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:08:40,230 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:47:10,143 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:09:40,503 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:48:10,377 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:10:40,688 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:49:10,559 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:11:40,896 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:50:10,742 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:12:41,133 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:51:10,945 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:13:41,330 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:52:11,177 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:14:41,531 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:53:11,361 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:15:41,741 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:54:11,551 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:16:41,985 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:55:11,752 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:17:42,186 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:56:11,978 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:18:42,386 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:57:12,169 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:19:42,594 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:58:12,369 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:20:42,820 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 06:59:12,569 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:21:43,031 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
-[DEBUG] 2020-03-11 07:00:12,854 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
+[DEBUG] 2020-03-15 21:22:43,222 | /home/mandy/frappe-bench/apps/frappe/frappe/utils/scheduler.py:
 Site: site1.local
 Queued events for site site1.local
